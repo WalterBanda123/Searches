@@ -20,14 +20,16 @@ const search = (value) => {
 
             if (namesList[i][j].toLowerCase()
                 .includes(searchedName.toLowerCase().toString()) &&
-                searchedName.length <= 3) {
+                searchedName.length < 3) {
                 console.log(namesList[i][j])
             }
+            
             if ((namesList[i][j].toLowerCase().toString() === searchedName.toLowerCase()) === true) {
                 const displayedContent = namesList[i].filter(item =>
                     item.toLowerCase().toString() != searchedName.toLowerCase().toString())
                 return displayedContent
             }
+
         }
 
     }
