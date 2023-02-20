@@ -1,0 +1,46 @@
+*{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+button{
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  padding: 2px;
+  height: 40px;
+  width: 80px;
+  align-items: center;
+  border-radius: 10px;
+}
+button:focus{
+  background-color: black;
+  color: white;
+}
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+input{
+  height: 50px;
+  width: 300px;
+ border-radius: 4px;
+ background-color: white;
+ padding: 5px;
+}
+input:focus{
+  background-color: black;
+  color: white;
+}
+a:focus{
+  background-color: black;
+  color: white;
+}
+.material-icons{
+  top: 0;
+  padding: 0;
+  margin:0;
+  margin-right: 4px;
+}
+.material-icons.md-18 { font-size: 18px; }
